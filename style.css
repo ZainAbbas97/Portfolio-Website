@@ -13,11 +13,6 @@ body {
   background-repeat: repeat-y;
 }
 
-.bordername {
-  border-bottom: 0.5px solid #000000;
-  border-lenght: 1920px;
-}
-
 .name-container {
   margin: 0 auto;
   margin-top: 19vh;
@@ -140,6 +135,7 @@ body {
   }
 }
 .about-container {
+  margin-top: -20vh;
   padding: 3vh;
   justify-content: space-evenly;
   display: flex;
@@ -188,6 +184,108 @@ body {
   letter-spacing: -0.025em;
   color: #6C6C6C;
   width: 900px;
+}
+
+@media only screen and (max-width: 400px) {
+  .name-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 37px;
+  }
+
+  .zain {
+    margin-top: 1vh;
+    width: 200rem;
+    height: 39px;
+  }
+
+  @keyframes animate {
+    0%, 100% {
+      top: 0px;
+    }
+    20% {
+      top: -43px;
+    }
+    40% {
+      top: -85px;
+    }
+    60% {
+      top: -132px;
+    }
+    80% {
+      top: -175px;
+    }
+  }
+  .download-resume-btn {
+    margin-top: 10vh;
+    font-size: 14px;
+    width: 200px;
+    height: 40px;
+  }
+
+  .bodymouse {
+    margin-bottom: 34vh;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 17px;
+    height: 25px;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 37px;
+  }
+
+  .scroll {
+    width: 2px;
+    height: 6px;
+  }
+
+  .mouse {
+    display: flex;
+    justify-content: center;
+    allign-item: center;
+    margin-top: 30vh;
+  }
+
+  .iam {
+    margin-top: 8vh;
+  }
+
+  body {
+    background-image: url(bg-image-mobile.png);
+  }
+
+  .about-container {
+    margin-top: -20vh;
+  }
+
+  .about {
+    font-size: 33px;
+    letter-spacing: -0.025em;
+    line-height: 12px;
+  }
+
+  .who {
+    font-size: 18px;
+    letter-spacing: 0.2em;
+    line-height: 12px;
+    margin-right: 20vw;
+  }
+
+  .desiner {
+    margin-left: -4vw;
+    line-height: 50px;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+
+  .description {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -0.035em;
+    width: 360px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
