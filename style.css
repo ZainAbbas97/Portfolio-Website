@@ -73,6 +73,7 @@ body {
 }
 
 .bodymouse {
+  margin-bottom: 34vh;
   display: flex;
   justify-content: center;
   position: absolute;
@@ -139,6 +140,8 @@ body {
   }
 }
 .about-container {
+  padding: 3vh;
+  justify-content: space-evenly;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -146,11 +149,10 @@ body {
 }
 
 .about {
-  margin-bottom: 2vh;
-  line-height: 100px;
+  margin-bottom: 20vh;
   align-items: center;
-  margin-top: 21vh;
-  font-size: 90px;
+  margin-top: 40vh;
+  font-size: 60px;
   font-weight: 300;
   letter-spacing: -0.025em;
   text-decoration-line: underline;
@@ -158,34 +160,34 @@ body {
 
 .who {
   margin-bottom: 2vh;
-  margin-right: 50vw;
-  margin-top: 13vh;
+  margin-left: -33vw;
+  margin-top: -10vh;
   font-weight: normal;
-  font-size: 45px;
+  font-size: 35px;
   letter-spacing: 0.25em;
   text-transform: uppercase;
   color: #6C6C6C;
 }
 
 .desiner {
-  margin-bottom: 2vh;
-  margin-right: 280px;
+  margin-bottom: 3vh;
+  margin-left: -7vw;
   margin-top: 1vh;
   font-weight: 600;
-  font-size: 50px;
+  font-size: 40px;
   line-height: 130px;
   letter-spacing: -0.025em;
   text-transform: uppercase;
 }
 
 .description {
-  margin-left: 200px;
-  margin-bottom: 2vh;
+  margin-left: 4vw;
   font-weight: normal;
-  font-size: 37px;
+  font-size: 30px;
   line-height: 58px;
   letter-spacing: -0.025em;
   color: #6C6C6C;
+  width: 900px;
 }
 
 /*# sourceMappingURL=style.css.map */
