@@ -156,7 +156,7 @@ body {
 
 .who {
   margin-bottom: 2vh;
-  margin-left: -33vw;
+  margin-right: -14vw;
   margin-top: -10vh;
   font-weight: normal;
   font-size: 35px;
@@ -177,7 +177,7 @@ body {
 }
 
 .description {
-  margin-left: 4vw;
+  margin-right: 6vw;
   font-weight: normal;
   font-size: 30px;
   line-height: 58px;
@@ -392,7 +392,6 @@ body {
     letter-spacing: 0.2em;
     line-height: 18px;
     margin-right: -2vw;
-    display: none;
   }
 
   .desiner {
