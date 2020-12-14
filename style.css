@@ -287,5 +287,109 @@ body {
     width: 360px;
   }
 }
+@media only screen and (max-width: 1050px) {
+  .name-container {
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+  }
+
+  .zain {
+    margin-top: 1vh;
+    width: 200rem;
+    height: 39px;
+  }
+
+  @keyframes animate {
+    0%, 100% {
+      top: 0px;
+    }
+    20% {
+      top: -63px;
+    }
+    40% {
+      top: -125px;
+    }
+    60% {
+      top: -188px;
+    }
+    80% {
+      top: -255px;
+    }
+  }
+  .download-resume-btn {
+    margin-top: 10vh;
+    font-size: 14px;
+    width: 200px;
+    height: 40px;
+  }
+
+  .bodymouse {
+    margin-bottom: 34vh;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 17px;
+    height: 25px;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 37px;
+  }
+
+  .scroll {
+    width: 2px;
+    height: 6px;
+  }
+
+  .mouse {
+    display: flex;
+    justify-content: center;
+    allign-item: center;
+    margin-top: 13vh;
+  }
+
+  .iam {
+    margin-top: 8vh;
+  }
+
+  body {
+    background-image: url(bg-image-ipad.png);
+  }
+
+  .about-container {
+    margin-top: -30vh;
+  }
+
+  .about {
+    font-size: 40px;
+    letter-spacing: -0.025em;
+    line-height: 12px;
+  }
+
+  .who {
+    margin-top: -12vh;
+    font-size: 23px;
+    letter-spacing: 0.2em;
+    line-height: 5px;
+    margin-right: -12vw;
+  }
+
+  .desiner {
+    margin-left: 5vw;
+    line-height: 30px;
+    font-size: 25px;
+    text-transform: uppercase;
+  }
+
+  .description {
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.035em;
+    width: 475px;
+    margin-left: 6vw;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
