@@ -6,8 +6,164 @@
 @font-face
     font-family: 'Avenir'
     src: url('AvenirLTStd-Medium.ttf') format('truetype')
-// <!-- ------------------------------------------Landing----------------------------------------------------------------------------------------->
-    body
+
+.body
+    background-image: url(bg-image.png)
+    background-repeat: repeat-y
+    overflow-x: hidden
+    background-size: 100%
+
+.name-container
+    margin: 0 auto
+    margin-top: 19vh
+    height: fit-content
+    width: 65vw
+    font-size: 100px
+    font-weight: 00
+    text-align: center
+    allign-items: center
+
+.bgimage1
+    position: absolute
+    width: 1920px
+    height: 1080px
+    allign: top
+    z-index: 2
+
+.download-resume-btn
+    background-color: white
+    font-weight: 100
+    font-size: 27px
+    line-height: 36px
+    display: flex
+    align-items: center
+    text-align: center
+    letter-spacing: -0.025em
+    text-transform: uppercase
+    justify-content: center
+    background-color: none
+    display: block
+    width: 429px
+    height: 78px
+    border: 1px solid black
+    margin: 50px auto
+    cursor: pointer
+
+.download-resume-btn:hover
+    background-color: #000000
+    color: white
+.zain
+    margin: none
+    justify-content: center
+    align-items: center
+    height: 105px
+    text-transform: uppercase
+    overflow: hidden
+    display: inline-block
+
+.bodymouse
+    margin-bottom: 34vh
+    display: flex
+    justify-content: center
+    position: absolute
+    width: 23px
+    height: 34px
+    border: 2px solid #000000
+    box-sizing: border-box
+    border-radius: 37px
+.scroll
+    position: relative
+    width: 2.34px
+    height: 6.75px
+    background: #000000
+    border-radius: 5px
+    margin-top: 5px
+.mouse
+    display: flex
+    justify-content: center
+    allign-item: center
+    margin-top: 15vh
+
+.zain span
+    marigin-bottom: 7px
+    animation: animate 10s ease infinite
+    position: relative
+
+@keyframes animate
+    0%,100%
+        top: 0px
+    20%
+        top: -120px
+    40%
+        top: -240px
+    60%
+        top: -360px
+    80%
+        top: -480px
+
+.scroll
+    animation: animatemouse 2s ease-in-out infinite
+    position: relative
+
+@keyframes animatemouse
+    0%
+        top: 0px
+    50%
+        top: 5px
+    100%
+        top: 0px
+// <!-- ------------------------------------------About----------------------------------------------------------------------------------------->
+.about-container
+    padding: 3vh
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+.info
+    margin-top: 10vh
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+.about
+    line-height: 100px
+    margin-bottom: 10vh
+    align-items: center
+    font-size: 90px
+    margin-top: 30vh
+    font-size: 60px
+    font-weight: 300
+    letter-spacing: -0.025em
+    text-decoration-line: underline
+.whos
+    margin-right: 37vw
+    margin-bottom: 2vh
+    margin-top: 2vh
+    font-size: 35px
+    letter-spacing: 0.25em
+    text-transform: uppercase
+    color: #6C6C6C
+
+.desiner
+    margin-left: -7vw
+    margin-bottom: 3vh
+    margin-top: 1vh
+    font-weight: 600
+    font-size: 43px
+    line-height: 130px
+    letter-spacing: -0.025em
+    text-transform: uppercase
+.description
+    margin-right: -1vw
+    margin-bottom: 2vh
+    font-size: 30px
+    line-height: 58px
+    letter-spacing: -0.025em
+    color: #6C6C6C
+    width: 900px
+// <!-- ------------------------------------------Desktop----------------------------------------------------------------------------------------->
+@media screen and (min-width:1440px) and (max-width:1920px)
+    .body
         background-image: url(bg-image.png)
         background-repeat: repeat-y
         overflow-x: hidden
@@ -136,16 +292,16 @@
         letter-spacing: -0.025em
         text-decoration-line: underline
     .whos
-        margin-right: 59vw
+        margin-right: 37vw
         margin-bottom: 2vh
-        margin-top: -10vh
+        margin-top: 2vh
         font-size: 35px
         letter-spacing: 0.25em
         text-transform: uppercase
         color: #6C6C6C
 
     .desiner
-        margin-left: -11vw
+        margin-left: -7vw
         margin-bottom: 3vh
         margin-top: 1vh
         font-weight: 600
@@ -156,251 +312,174 @@
     .description
         margin-right: -1vw
         margin-bottom: 2vh
-        font-size: 70px
+        font-size: 30px
         line-height: 58px
         letter-spacing: -0.025em
         color: #6C6C6C
         width: 900px
 // <!-- ------------------------------------------ipad query----------------------------------------------------------------------------------------->
 @media screen and (min-width:900px) and (max-width:1200px)
-body
-    background-image: url(bg-image.png)
-    background-repeat: repeat-y
-    overflow-x: hidden
-    background-size: 100%
+    body
+        background-image: url(bg-image.png)
+        background-repeat: repeat-y
+        overflow-x: hidden
+        background-size: 100%
 
-.name-container
-    margin: 0 auto
-    margin-top: 19vh
-    height: fit-content
-    width: 65vw
-    font-size: 70px
-    text-align: center
-    allign-items: center
-
-.bgimage1
-    position: absolute
-    width: 1920px
-    height: 1080px
-    allign: top
-    z-index: 2
-
-.download-resume-btn
-    background-color: white
-    font-size: 18px
-    line-height: 36px
-    display: flex
-    align-items: center
-    text-align: center
-    letter-spacing: -0.025em
-    text-transform: uppercase
-    justify-content: center
-    background-color: none
-    display: block
-    width: 350px
-    height: 60px
-    border: 1px solid black
-    margin: 50px auto
-    cursor: pointer
-
-.download-resume-btn:hover
-    background-color: #000000
-    color: white
-.zain
-    margin: none
-    justify-content: center
-    align-items: center
-    height: 70px
-    text-transform: uppercase
-    overflow: hidden
-    display: inline-block
-
-.bodymouse
-    margin-bottom: 34vh
-    display: flex
-    justify-content: center
-    position: absolute
-    width: 23px
-    height: 34px
-    border: 2px solid #000000
-    box-sizing: border-box
-    border-radius: 37px
-.scroll
-    position: relative
-    width: 2.34px
-    height: 6.75px
-    background: #000000
-    border-radius: 5px
-    margin-top: 5px
-.mouse
-    display: flex
-    justify-content: center
-    allign-item: center
-    margin-top: 34vh
-
-.zain span
-    marigin-bottom: 7px
-    animation: animate 10s ease infinite
-    position: relative
-
-@keyframes animate
-    0%,100%
-        top: 0px
-    20%
-        top: -88px
-    40%
-        top: -170px
-    60%
-        top: -255px
-    80%
-        top: -260px
-
-.scroll
-    animation: animatemouse 2s ease-in-out infinite
-    position: relative
-
-@keyframes animatemouse
-    0%
-        top: 0px
-    50%
-        top: 5px
-    100%
-        top: 0px
-
-.iam
-    margin-top: 8vh
-
-body
-    background-image: url(bg-image-ipad.png)
-
-.about-container
-    margin-top: -20vh
-    padding: 3vh
-    display: flex
-    justify-content: center
-    align-items: center
-    flex-direction: column
-.info
-    margin-top: 13vh
-    display: flex
-    flex-direction: column
-    justify-content: center
-    align-items: center
-.about
-    line-height: 90px
-    margin-bottom: 10vh
-    align-items: center
-    margin-top: 30vh
-    font-size: 50px
-    font-weight: 300
-    letter-spacing: -0.025em
-    text-decoration-line: underline
-.whos
-    position: relative
-    margin-right: 27vw
-    margin-bottom: 2vh
-    margin-top: -1vh
-    font-size: 25px
-    letter-spacing: 0.25em
-    text-transform: uppercase
-    color: #6C6C6C
-
-.desiner
-    margin-right: -3vw
-    margin-bottom: 3vh
-    margin-top: 1vh
-    font-weight: 600
-    font-size: 38px
-    line-height: 70px
-    letter-spacing: -0.025em
-    text-transform: uppercase
-.description
-    margin-left: 7vw
-    font-size: 25px
-    line-height: 45px
-    letter-spacing: -0.025em
-    color: #6C6C6C
-    width: 750px
-// <!-- ------------------------------------------mobile query----------------------------------------------------------------------------------------->
-
-@media screen and (min-width:320px) and (max-width:420px)
     .name-container
-        display: flex
-        flex-direction: column
-        align-items: center
-        font-size: 37px
-    .zain
-        margin-top: 1vh
-        width: 200rem
-        height: 39px
+        margin: 0 auto
+        margin-top: 19vh
+        height: fit-content
+        width: 65vw
+        font-size: 70px
+        text-align: center
+        allign-items: center
 
-    @keyframes animate
-        0%,100%
-            top: 0px
-        20%
-            top: -43px
-        40%
-            top: -85px
-        60%
-            top: -132px
-        80%
-            top: -175px
+    .bgimage1
+        position: absolute
+        width: 1920px
+        height: 1080px
+        allign: top
+        z-index: 2
 
     .download-resume-btn
-        margin-top: 10vh
-        font-size: 14px
-        width: 200px
-        height: 40px
+        background-color: white
+        font-size: 18px
+        line-height: 36px
+        display: flex
+        align-items: center
+        text-align: center
+        letter-spacing: -0.025em
+        text-transform: uppercase
+        justify-content: center
+        background-color: none
+        display: block
+        width: 350px
+        height: 60px
+        border: 1px solid black
+        margin: 50px auto
+        cursor: pointer
+
+    .download-resume-btn:hover
+        background-color: #000000
+        color: white
+    .zain
+        margin: none
+        justify-content: center
+        align-items: center
+        height: 70px
+        text-transform: uppercase
+        overflow: hidden
+        display: inline-block
+
     .bodymouse
         margin-bottom: 34vh
         display: flex
         justify-content: center
         position: absolute
-        width: 17px
-        height: 25px
+        width: 23px
+        height: 34px
         border: 2px solid #000000
         box-sizing: border-box
         border-radius: 37px
     .scroll
-        width: 2px
-        height: 6px
-
+        position: relative
+        width: 2.34px
+        height: 6.75px
+        background: #000000
+        border-radius: 5px
+        margin-top: 5px
     .mouse
         display: flex
         justify-content: center
         allign-item: center
-        margin-top: 40vh
+        margin-top: 34vh
+
+    .zain span
+        marigin-bottom: 7px
+        animation: animate 10s ease infinite
+        position: relative
+
+    @keyframes animate
+        0%,100%
+            top: 0px
+        20%
+            top: -88px
+        40%
+            top: -170px
+        60%
+            top: -255px
+        80%
+            top: -260px
+
+    .scroll
+        animation: animatemouse 2s ease-in-out infinite
+        position: relative
+
+    @keyframes animatemouse
+        0%
+            top: 0px
+        50%
+            top: 5px
+        100%
+            top: 0px
 
     .iam
         margin-top: 8vh
 
     body
-        background-image: url(bg-image-mobile.png)
+        background-image: url(bg-image-ipad.png)
 
     .about-container
-        margin-top: -10vh
+        margin-top: -20vh
+        padding: 3vh
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-direction: column
+    .info
+        margin-top: 13vh
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
     .about
-        font-size: 33px
+        line-height: 90px
+        margin-bottom: 10vh
+        align-items: center
+        margin-top: 30vh
+        font-size: 50px
+        font-weight: 300
         letter-spacing: -0.025em
-        line-height: 17px
+        text-decoration-line: underline
+    .whos
+        position: relative
+        margin-right: 42vw
+        margin-bottom: 2vh
+        margin-top: -1vh
+        font-size: 25px
+        letter-spacing: 0.25em
+        text-transform: uppercase
+        color: #6C6C6C
 
-    .who
-        font-size: 18px
-        letter-spacing: 0.2em
-        line-height: 18px
-        margin-right: -7vw
     .desiner
-        margin-left: -26vw
-        line-height: 30px
-        font-size: 18px
+        margin-right: -5vw
+        margin-bottom: 3vh
+        margin-top: 1vh
+        font-weight: 600
+        font-size: 38px
+        line-height: 70px
+        letter-spacing: -0.025em
         text-transform: uppercase
     .description
-        font-size: 20px
-        line-height: 30px
-        letter-spacing: -0.035em
-        width: 360px
-        margin-left: 3vw
-@media only screen and (max-width: 400px)
+        margin-left: 11vw
+        font-size: 25px
+        line-height: 45px
+        letter-spacing: -0.025em
+        color: #6C6C6C
+        width: 750px
+// <!-- ------------------------------------------mobile query----------------------------------------------------------------------------------------->
+
+@media screen and (min-width:320px) and (max-width:420px)
     .name-container
         display: flex
         flex-direction: column
@@ -465,15 +544,15 @@ body
         font-size: 18px
         letter-spacing: 0.2em
         line-height: 18px
-        margin-left: -21vw
+        margin-right: 50vw
     .desiner
-        margin-left: -3vw
+        margin-left: -2vw
         line-height: 30px
         font-size: 18px
         text-transform: uppercase
     .description
-        font-size: 18px
+        font-size: 20px
         line-height: 30px
         letter-spacing: -0.035em
-        width: 340px
-        margin-left: 4vw
+        width: 335px
+        margin-right: -1vw
