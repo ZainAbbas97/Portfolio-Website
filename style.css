@@ -13,7 +13,7 @@
   src: url("AvenirLTStd-Roman.ttf") format("truetype");
 }
 @font-face {
-  font-family: "Avenir=45";
+  font-family: "Avenir-45";
   src: url("AvenirLTStd-Book.ttf") format("truetype");
 }
 .body {
@@ -459,6 +459,162 @@
 }
 .study svg {
   margin-left: 0.8vw;
+}
+
+.Contact-me {
+  margin-top: 20vh;
+  text-align: center;
+  font-size: 60px;
+  line-height: 100px;
+  letter-spacing: -0.025em;
+  text-decoration-line: underline;
+}
+
+.feel-free {
+  margin-top: 5vh;
+  text-align: center;
+  font-size: 43px;
+  line-height: 100px;
+  letter-spacing: -0.025em;
+  text-transform: uppercase;
+  color: #6C6C6C;
+}
+
+.ids {
+  text-align: center;
+  margin-bottom: 10vh;
+}
+
+.email {
+  margin-top: 9vh;
+  font-family: Avenir-45;
+  display: flex;
+  align-items: center;
+  margin-left: 26vw;
+  width: 30px;
+  height: 30px;
+  background: #646464;
+  border-radius: 30px;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: -0.025em;
+  text-decoration-line: underline;
+  color: #000000;
+}
+.email p {
+  margin-left: 3vw;
+  width: 90px;
+}
+
+.insta {
+  margin-top: 9vh;
+  font-family: Avenir-45;
+  display: flex;
+  align-items: center;
+  margin-left: 26vw;
+  width: 30px;
+  height: 30px;
+  background: #646464;
+  border-radius: 30px;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: -0.025em;
+  text-decoration-line: underline;
+  color: #000000;
+}
+.insta p {
+  margin-left: 3vw;
+  width: 90px;
+}
+
+.facebook {
+  margin-top: 9vh;
+  font-family: Avenir-45;
+  display: flex;
+  align-items: center;
+  margin-left: 26vw;
+  width: 30px;
+  height: 30px;
+  background: #646464;
+  border-radius: 30px;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: -0.025em;
+  text-decoration-line: underline;
+  color: #000000;
+}
+.facebook p {
+  margin-left: 3vw;
+  width: 90px;
+}
+
+.behance {
+  margin-top: -28vh;
+  font-family: Avenir-45;
+  display: flex;
+  align-items: center;
+  margin-left: 60vw;
+  width: 30px;
+  height: 30px;
+  background: #646464;
+  border-radius: 30px;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: -0.025em;
+  text-decoration-line: underline;
+  color: #000000;
+}
+.behance p {
+  margin-left: 3vw;
+  width: 90px;
+}
+
+.dribble {
+  margin-top: 9vh;
+  font-family: Avenir-45;
+  display: flex;
+  align-items: center;
+  margin-left: 60vw;
+  width: 30px;
+  height: 30px;
+  background: #646464;
+  border-radius: 30px;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: -0.025em;
+  text-decoration-line: underline;
+  color: #000000;
+}
+.dribble p {
+  margin-left: 3vw;
+  width: 90px;
+}
+
+.git {
+  margin-top: 9vh;
+  font-family: Avenir-45;
+  display: flex;
+  align-items: center;
+  margin-left: 60vw;
+  width: 30px;
+  height: 30px;
+  background: #646464;
+  border-radius: 30px;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: -0.025em;
+  text-decoration-line: underline;
+  color: #000000;
+}
+.git p {
+  margin-left: 3vw;
+  width: 90px;
 }
 
 @media screen and (min-width: 900px) and (max-width: 1200px) {
