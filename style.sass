@@ -6,6 +6,12 @@
 @font-face
     font-family: 'Avenir'
     src: url('AvenirLTStd-Medium.ttf') format('truetype')
+@font-face
+    font-family: 'Avenir-55'
+    src: url('AvenirLTStd-Roman.ttf') format('truetype')
+@font-face
+    font-family: 'Avenir=45'
+    src: url('AvenirLTStd-Book.ttf') format('truetype')
 
 .body
     background-image: url(bg-image.png)
@@ -31,6 +37,7 @@
     z-index: 2
 
 .download-resume-btn
+    font-family: Avenir-55
     background-color: white
     font-weight: 100
     font-size: 27px
@@ -126,6 +133,7 @@
     justify-content: center
     align-items: center
 .about
+    font-family: Avenir-55
     line-height: 100px
     margin-bottom: 10vh
     align-items: center
@@ -136,6 +144,7 @@
     letter-spacing: -0.025em
     text-decoration-line: underline
 .whos
+    font-family: Avenir-55
     margin-right: 37vw
     margin-bottom: 2vh
     margin-top: 2vh
@@ -161,6 +170,9 @@
     letter-spacing: -0.025em
     color: #6C6C6C
     width: 900px
+    // <!-- ------------------------------------------Project----------------------------------------------------------------------------------------->
+.project-container
+    font-size: 60 px
 // <!-- ------------------------------------------Desktop----------------------------------------------------------------------------------------->
 @media screen and (min-width:1440px) and (max-width:1920px)
     .body
@@ -292,7 +304,7 @@
         letter-spacing: -0.025em
         text-decoration-line: underline
     .whos
-        margin-right: 37vw
+        margin-right: 33vw
         margin-bottom: 2vh
         margin-top: 2vh
         font-size: 35px
@@ -301,7 +313,7 @@
         color: #6C6C6C
 
     .desiner
-        margin-left: -7vw
+        margin-left: -5vw
         margin-bottom: 3vh
         margin-top: 1vh
         font-weight: 600
@@ -317,6 +329,56 @@
         letter-spacing: -0.025em
         color: #6C6C6C
         width: 900px
+    // <!-- ------------------------------------------Project----------------------------------------------------------------------------------------->
+.project-container
+    text-align: center
+.project
+    font-family: Avenir-55
+    line-height: 100px
+    margin-bottom: 10vh
+    margin-top: 30vh
+    font-size: 60px
+    letter-spacing: -0.025em
+    text-decoration-line: underline
+.project-card
+    display: flex
+    flex-direction: row
+    justify-content: space-evenly
+.card-1 , .card-2 , .card-3
+    display: flex
+    justify-content: flex-end
+    flex-direction: column
+    background-color: #000000
+    color: white
+    width: 414px
+    height: 582px
+.text-1 , .text-2 , .text-3
+    margin-bottom: -1vh
+.year
+    width: 100px
+    margin-bottom: 1vh
+    margin-left: 1.3vw
+    font-size: 14px
+    line-height: 251.4%
+    letter-spacing: 0.3em
+.project-discription
+    margin-left: 2.3vw
+    width: 270px
+    font-size: 20px
+    line-height: 28px
+.study
+    display: flex
+    margin-top: 1vh
+    margin-left: -12vw
+    font-size: 14px
+    line-height: 39px
+    justify-content: center
+    align-items: center
+    svg
+        margin-left: 0.8vw
+// <!-- ------------------------------------------Project----------------------------------------------------------------------------------------->
+
+
 // <!-- ------------------------------------------ipad query----------------------------------------------------------------------------------------->
 @media screen and (min-width:900px) and (max-width:1200px)
     body
