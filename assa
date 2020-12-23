@@ -1,0 +1,33 @@
+.about-all
+    margin-top: 30vh
+.about-container
+    text-align: center
+.info
+    margin-top: 12vh
+    margin-left: 29vw
+    text-align: left
+.about
+    font-family: Avenir-55
+    line-height: 100px
+    font-size: 60px
+    letter-spacing: -0.025em
+    text-decoration-line: underline
+.whos
+    font-family: Avenir-55
+    font-size: 35px
+    letter-spacing: 0.25em
+    text-transform: uppercase
+    color: #6C6C6C
+
+.desiner
+    font-size: 43px
+    line-height: 130px
+    letter-spacing: -0.025em
+    text-transform: uppercase
+
+.description
+    font-size: 30px
+    line-height: 58px
+    letter-spacing: -0.025em
+    color: #6C6C6C
+    width: 900px

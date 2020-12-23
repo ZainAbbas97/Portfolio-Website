@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: Avenir;
 }
 
@@ -103,7 +104,7 @@
   display: flex;
   justify-content: center;
   allign-item: center;
-  margin-top: 15vh;
+  margin-top: 27vh;
 }
 
 .zain span {
@@ -145,40 +146,30 @@
     top: 0px;
   }
 }
+.about-all {
+  margin-top: 30vh;
+}
+
 .about-container {
-  padding: 3vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  text-align: center;
 }
 
 .info {
-  margin-top: 10vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin-top: 12vh;
+  margin-left: 29vw;
+  text-align: left;
 }
 
 .about {
   font-family: Avenir-55;
   line-height: 100px;
-  margin-bottom: 10vh;
-  align-items: center;
-  font-size: 90px;
-  margin-top: 30vh;
   font-size: 60px;
-  font-weight: 300;
   letter-spacing: -0.025em;
   text-decoration-line: underline;
 }
 
 .whos {
   font-family: Avenir-55;
-  margin-right: 37vw;
-  margin-bottom: 2vh;
-  margin-top: 2vh;
   font-size: 35px;
   letter-spacing: 0.25em;
   text-transform: uppercase;
@@ -186,10 +177,6 @@
 }
 
 .desiner {
-  margin-left: -7vw;
-  margin-bottom: 3vh;
-  margin-top: 1vh;
-  font-weight: 600;
   font-size: 43px;
   line-height: 130px;
   letter-spacing: -0.025em;
@@ -197,8 +184,6 @@
 }
 
 .description {
-  margin-right: -1vw;
-  margin-bottom: 2vh;
   font-size: 30px;
   line-height: 58px;
   letter-spacing: -0.025em;
@@ -206,198 +191,6 @@
   width: 900px;
 }
 
-.project-container {
-  font-size: 60 px;
-}
-
-@media screen and (min-width: 1440px) and (max-width: 1920px) {
-  .body {
-    background-image: url(bg-image.png);
-    background-repeat: repeat-y;
-    overflow-x: hidden;
-    background-size: 100%;
-  }
-
-  .name-container {
-    margin: 0 auto;
-    margin-top: 19vh;
-    height: fit-content;
-    width: 65vw;
-    font-size: 100px;
-    font-weight: 0;
-    text-align: center;
-    allign-items: center;
-  }
-
-  .bgimage1 {
-    position: absolute;
-    width: 1920px;
-    height: 1080px;
-    allign: top;
-    z-index: 2;
-  }
-
-  .download-resume-btn {
-    background-color: white;
-    font-weight: 100;
-    font-size: 27px;
-    line-height: 36px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.025em;
-    text-transform: uppercase;
-    justify-content: center;
-    background-color: none;
-    display: block;
-    width: 429px;
-    height: 78px;
-    border: 1px solid black;
-    margin: 50px auto;
-    cursor: pointer;
-  }
-
-  .download-resume-btn:hover {
-    background-color: #000000;
-    color: white;
-  }
-
-  .zain {
-    margin: none;
-    justify-content: center;
-    align-items: center;
-    height: 105px;
-    text-transform: uppercase;
-    overflow: hidden;
-    display: inline-block;
-  }
-
-  .bodymouse {
-    margin-bottom: 34vh;
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    width: 23px;
-    height: 34px;
-    border: 2px solid #000000;
-    box-sizing: border-box;
-    border-radius: 37px;
-  }
-
-  .scroll {
-    position: relative;
-    width: 2.34px;
-    height: 6.75px;
-    background: #000000;
-    border-radius: 5px;
-    margin-top: 5px;
-  }
-
-  .mouse {
-    display: flex;
-    justify-content: center;
-    allign-item: center;
-    margin-top: 15vh;
-  }
-
-  .zain span {
-    marigin-bottom: 7px;
-    animation: animate 10s ease infinite;
-    position: relative;
-  }
-
-  @keyframes animate {
-    0%, 100% {
-      top: 0px;
-    }
-    20% {
-      top: -120px;
-    }
-    40% {
-      top: -240px;
-    }
-    60% {
-      top: -360px;
-    }
-    80% {
-      top: -480px;
-    }
-  }
-  .scroll {
-    animation: animatemouse 2s ease-in-out infinite;
-    position: relative;
-  }
-
-  @keyframes animatemouse {
-    0% {
-      top: 0px;
-    }
-    50% {
-      top: 5px;
-    }
-    100% {
-      top: 0px;
-    }
-  }
-  .about-container {
-    padding: 3vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .info {
-    margin-top: 10vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .about {
-    line-height: 100px;
-    margin-bottom: 10vh;
-    align-items: center;
-    font-size: 90px;
-    margin-top: 30vh;
-    font-size: 60px;
-    font-weight: 300;
-    letter-spacing: -0.025em;
-    text-decoration-line: underline;
-  }
-
-  .whos {
-    margin-right: 33vw;
-    margin-bottom: 2vh;
-    margin-top: 2vh;
-    font-size: 35px;
-    letter-spacing: 0.25em;
-    text-transform: uppercase;
-    color: #6C6C6C;
-  }
-
-  .desiner {
-    margin-left: -5vw;
-    margin-bottom: 3vh;
-    margin-top: 1vh;
-    font-weight: 600;
-    font-size: 43px;
-    line-height: 130px;
-    letter-spacing: -0.025em;
-    text-transform: uppercase;
-  }
-
-  .description {
-    margin-right: -1vw;
-    margin-bottom: 2vh;
-    font-size: 30px;
-    line-height: 58px;
-    letter-spacing: -0.025em;
-    color: #6C6C6C;
-    width: 900px;
-  }
-}
 .project-container {
   text-align: center;
 }
@@ -412,37 +205,38 @@
   text-decoration-line: underline;
 }
 
-.project-card {
+.cardsvibe {
+  margin-top: 15vh;
   display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
 }
 
-.card-1, .card-2, .card-3 {
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
+.card {
   background-color: #000000;
   color: white;
   width: 414px;
   height: 582px;
+  text-align: left;
 }
 
-.text-1, .text-2, .text-3 {
+.text {
+  margin-top: 3vh;
+  margin-left: 2vw;
   margin-bottom: -1vh;
 }
 
+.image2 {
+  display: none;
+}
+
 .year {
-  width: 100px;
   margin-bottom: 1vh;
-  margin-left: 1.3vw;
   font-size: 14px;
   line-height: 251.4%;
   letter-spacing: 0.3em;
 }
 
 .project-discription {
-  margin-left: 2.3vw;
   width: 270px;
   font-size: 20px;
   line-height: 28px;
@@ -451,10 +245,8 @@
 .study {
   display: flex;
   margin-top: 1vh;
-  margin-left: -12vw;
   font-size: 14px;
   line-height: 39px;
-  justify-content: center;
   align-items: center;
 }
 .study svg {
@@ -480,27 +272,32 @@
   color: #6C6C6C;
 }
 
-.ids {
-  text-align: center;
+.social-container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 29vw;
   margin-bottom: 10vh;
 }
 
-.email {
-  margin-top: 9vh;
-  font-family: Avenir-45;
+.social-container2 {
   display: flex;
-  align-items: center;
-  margin-left: 26vw;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 29vw;
+  margin-bottom: 10vh;
+  margin-top: -36vh;
+}
+
+.email {
+  background-image: url(gmail.png);
+  font-family: Avenir-45;
+  font-size: 20px;
   width: 30px;
   height: 30px;
-  background: #646464;
   border-radius: 30px;
-  font-size: 20px;
-  line-height: 40px;
-  text-align: center;
-  letter-spacing: -0.025em;
   text-decoration-line: underline;
-  color: #000000;
+  margin-top: 9vh;
 }
 .email p {
   margin-left: 3vw;
@@ -508,21 +305,14 @@
 }
 
 .insta {
-  margin-top: 9vh;
+  background-image: url(Insta.png);
   font-family: Avenir-45;
-  display: flex;
-  align-items: center;
-  margin-left: 26vw;
+  font-size: 20px;
   width: 30px;
   height: 30px;
-  background: #646464;
   border-radius: 30px;
-  font-size: 20px;
-  line-height: 40px;
-  text-align: center;
-  letter-spacing: -0.025em;
   text-decoration-line: underline;
-  color: #000000;
+  margin-top: 9vh;
 }
 .insta p {
   margin-left: 3vw;
@@ -530,21 +320,14 @@
 }
 
 .facebook {
-  margin-top: 9vh;
+  background-image: url(facebook.png);
   font-family: Avenir-45;
-  display: flex;
-  align-items: center;
-  margin-left: 26vw;
+  font-size: 20px;
   width: 30px;
   height: 30px;
-  background: #646464;
   border-radius: 30px;
-  font-size: 20px;
-  line-height: 40px;
-  text-align: center;
-  letter-spacing: -0.025em;
   text-decoration-line: underline;
-  color: #000000;
+  margin-top: 9vh;
 }
 .facebook p {
   margin-left: 3vw;
@@ -552,21 +335,14 @@
 }
 
 .behance {
-  margin-top: -28vh;
+  background-image: url(behance.png);
   font-family: Avenir-45;
-  display: flex;
-  align-items: center;
-  margin-left: 60vw;
+  font-size: 20px;
   width: 30px;
   height: 30px;
-  background: #646464;
   border-radius: 30px;
-  font-size: 20px;
-  line-height: 40px;
-  text-align: center;
-  letter-spacing: -0.025em;
   text-decoration-line: underline;
-  color: #000000;
+  margin-top: 9vh;
 }
 .behance p {
   margin-left: 3vw;
@@ -574,21 +350,14 @@
 }
 
 .dribble {
-  margin-top: 9vh;
+  background-image: url(dribbble.png);
   font-family: Avenir-45;
-  display: flex;
-  align-items: center;
-  margin-left: 60vw;
+  font-size: 20px;
   width: 30px;
   height: 30px;
-  background: #646464;
   border-radius: 30px;
-  font-size: 20px;
-  line-height: 40px;
-  text-align: center;
-  letter-spacing: -0.025em;
   text-decoration-line: underline;
-  color: #000000;
+  margin-top: 9vh;
 }
 .dribble p {
   margin-left: 3vw;
@@ -596,221 +365,20 @@
 }
 
 .git {
-  margin-top: 9vh;
+  background-image: url(git.png);
   font-family: Avenir-45;
-  display: flex;
-  align-items: center;
-  margin-left: 60vw;
+  font-size: 20px;
   width: 30px;
   height: 30px;
-  background: #646464;
   border-radius: 30px;
-  font-size: 20px;
-  line-height: 40px;
-  text-align: center;
-  letter-spacing: -0.025em;
   text-decoration-line: underline;
-  color: #000000;
+  margin-top: 9vh;
 }
 .git p {
   margin-left: 3vw;
   width: 90px;
 }
 
-@media screen and (min-width: 900px) and (max-width: 1200px) {
-  body {
-    background-image: url(bg-image.png);
-    background-repeat: repeat-y;
-    overflow-x: hidden;
-    background-size: 100%;
-  }
-
-  .name-container {
-    margin: 0 auto;
-    margin-top: 19vh;
-    height: fit-content;
-    width: 65vw;
-    font-size: 70px;
-    text-align: center;
-    allign-items: center;
-  }
-
-  .bgimage1 {
-    position: absolute;
-    width: 1920px;
-    height: 1080px;
-    allign: top;
-    z-index: 2;
-  }
-
-  .download-resume-btn {
-    background-color: white;
-    font-size: 18px;
-    line-height: 36px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.025em;
-    text-transform: uppercase;
-    justify-content: center;
-    background-color: none;
-    display: block;
-    width: 350px;
-    height: 60px;
-    border: 1px solid black;
-    margin: 50px auto;
-    cursor: pointer;
-  }
-
-  .download-resume-btn:hover {
-    background-color: #000000;
-    color: white;
-  }
-
-  .zain {
-    margin: none;
-    justify-content: center;
-    align-items: center;
-    height: 70px;
-    text-transform: uppercase;
-    overflow: hidden;
-    display: inline-block;
-  }
-
-  .bodymouse {
-    margin-bottom: 34vh;
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    width: 23px;
-    height: 34px;
-    border: 2px solid #000000;
-    box-sizing: border-box;
-    border-radius: 37px;
-  }
-
-  .scroll {
-    position: relative;
-    width: 2.34px;
-    height: 6.75px;
-    background: #000000;
-    border-radius: 5px;
-    margin-top: 5px;
-  }
-
-  .mouse {
-    display: flex;
-    justify-content: center;
-    allign-item: center;
-    margin-top: 34vh;
-  }
-
-  .zain span {
-    marigin-bottom: 7px;
-    animation: animate 10s ease infinite;
-    position: relative;
-  }
-
-  @keyframes animate {
-    0%, 100% {
-      top: 0px;
-    }
-    20% {
-      top: -88px;
-    }
-    40% {
-      top: -170px;
-    }
-    60% {
-      top: -255px;
-    }
-    80% {
-      top: -260px;
-    }
-  }
-  .scroll {
-    animation: animatemouse 2s ease-in-out infinite;
-    position: relative;
-  }
-
-  @keyframes animatemouse {
-    0% {
-      top: 0px;
-    }
-    50% {
-      top: 5px;
-    }
-    100% {
-      top: 0px;
-    }
-  }
-  .iam {
-    margin-top: 8vh;
-  }
-
-  body {
-    background-image: url(bg-image-ipad.png);
-  }
-
-  .about-container {
-    margin-top: -20vh;
-    padding: 3vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .info {
-    margin-top: 13vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .about {
-    line-height: 90px;
-    margin-bottom: 10vh;
-    align-items: center;
-    margin-top: 30vh;
-    font-size: 50px;
-    font-weight: 300;
-    letter-spacing: -0.025em;
-    text-decoration-line: underline;
-  }
-
-  .whos {
-    position: relative;
-    margin-right: 42vw;
-    margin-bottom: 2vh;
-    margin-top: -1vh;
-    font-size: 25px;
-    letter-spacing: 0.25em;
-    text-transform: uppercase;
-    color: #6C6C6C;
-  }
-
-  .desiner {
-    margin-right: -5vw;
-    margin-bottom: 3vh;
-    margin-top: 1vh;
-    font-weight: 600;
-    font-size: 38px;
-    line-height: 70px;
-    letter-spacing: -0.025em;
-    text-transform: uppercase;
-  }
-
-  .description {
-    margin-left: 11vw;
-    font-size: 25px;
-    line-height: 45px;
-    letter-spacing: -0.025em;
-    color: #6C6C6C;
-    width: 750px;
-  }
-}
 @media screen and (min-width: 320px) and (max-width: 420px) {
   .name-container {
     display: flex;
@@ -882,7 +450,12 @@
   }
 
   .about-container {
-    margin-top: -10vh;
+    text-align: center;
+  }
+
+  .info {
+    text-align: left;
+    margin-left: 8vw;
   }
 
   .about {
@@ -895,14 +468,13 @@
     font-size: 18px;
     letter-spacing: 0.2em;
     line-height: 18px;
-    margin-right: 50vw;
   }
 
   .desiner {
-    margin-left: -2vw;
     line-height: 30px;
     font-size: 18px;
     text-transform: uppercase;
+    line-height: 80px;
   }
 
   .description {
@@ -910,7 +482,147 @@
     line-height: 30px;
     letter-spacing: -0.035em;
     width: 335px;
-    margin-right: -1vw;
+  }
+
+  .project-container {
+    text-align: center;
+  }
+
+  .project {
+    line-height: 80px;
+    margin-bottom: 1vh;
+    margin-top: 20vh;
+    font-size: 33px;
+  }
+
+  .cardsvibe {
+    margin-top: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 1230px;
+  }
+
+  .card {
+    width: 259px;
+    height: 400px;
+    text-align: left;
+    margin: 0 auto;
+  }
+
+  .text {
+    margin-top: 5vh;
+    margin-left: 7vw;
+    margin-bottom: -1vh;
+  }
+
+  .img1 {
+    display: none;
+  }
+
+  .year {
+    margin-bottom: 1vh;
+    font-size: 11px;
+  }
+
+  .project-discription {
+    width: 220px;
+    font-size: 15px;
+    line-height: 28px;
+  }
+
+  .study {
+    display: flex;
+    margin-top: 1vh;
+    font-size: 11px;
+    line-height: 39px;
+    align-items: center;
+  }
+  .study svg {
+    margin-left: 0.8vw;
+  }
+
+  .Contact-me {
+    margin-top: 10vh;
+    font-size: 33px;
+    line-height: 60px;
+  }
+
+  .feel-free {
+    font-size: 17px;
+    line-height: 50px;
+  }
+
+  .social-container1 {
+    text-align: center;
+    margin-left: 10vw;
+    margin-bottom: 10vh;
+  }
+
+  .social-container2 {
+    margin-left: 49vw;
+    margin-bottom: 10vh;
+    margin-top: -39vh;
+  }
+
+  .email {
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
+    margin-top: 9vh;
+  }
+  .email p {
+    margin-left: 10vw;
+  }
+
+  .insta {
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
+    margin-top: 9vh;
+  }
+  .insta p {
+    margin-left: 10vw;
+  }
+
+  .facebook {
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
+    margin-top: 9vh;
+  }
+  .facebook p {
+    margin-left: 10vw;
+  }
+
+  .behance {
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
+    margin-top: 9vh;
+  }
+  .behance p {
+    margin-left: 10vw;
+  }
+
+  .dribble {
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
+    margin-top: 9vh;
+  }
+  .dribble p {
+    margin-left: 10vw;
+  }
+
+  .git {
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
+    margin-top: 9vh;
+  }
+  .git p {
+    margin-left: 10vw;
   }
 }
 
