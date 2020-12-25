@@ -19,6 +19,7 @@
     background-repeat: repeat-y
     overflow-x: hidden
     background-size: 100%
+    width: 100%
 
 .name-container
     margin: 0 auto
@@ -26,21 +27,14 @@
     height: fit-content
     width: 65vw
     font-size: 100px
-    font-weight: 00
     text-align: center
     allign-items: center
-
-.bgimage1
-    position: absolute
-    width: 1920px
-    height: 1080px
-    allign: top
-    z-index: 2
+    width: 100%
 
 .download-resume-btn
+    z-index: -2
     font-family: Avenir-55
     background-color: white
-    font-weight: 100
     font-size: 27px
     line-height: 36px
     display: flex
@@ -49,17 +43,22 @@
     letter-spacing: -0.025em
     text-transform: uppercase
     justify-content: center
-    background-color: none
-    display: block
     width: 429px
     height: 78px
     border: 1px solid black
     margin: 50px auto
     cursor: pointer
+    background-image: url(button-bg.png)
+    background-repeat: no-repeat
+    background-size: 150%
+    background-position: 500%
+    transition: 0.4s ease-out
+    overflow: hidden
+
 
 .download-resume-btn:hover
-    background-color: #000000
     color: white
+    background-position: 10%
 .zain
     margin: none
     justify-content: center
@@ -68,7 +67,6 @@
     text-transform: uppercase
     overflow: hidden
     display: inline-block
-
 .bodymouse
     margin-bottom: 34vh
     display: flex
@@ -91,12 +89,10 @@
     justify-content: center
     allign-item: center
     margin-top: 27vh
-
 .zain span
     marigin-bottom: 7px
     animation: animate 10s ease infinite
     position: relative
-
 @keyframes animate
     0%,100%
         top: 0px
@@ -108,7 +104,6 @@
         top: -360px
     80%
         top: -480px
-
 .scroll
     animation: animatemouse 2s ease-in-out infinite
     position: relative
@@ -125,6 +120,7 @@
     margin-top: 30vh
 .about-container
     text-align: center
+    margin: 0 auto
 .info
     margin-top: 12vh
     margin-left: 29vw
@@ -141,13 +137,11 @@
     letter-spacing: 0.25em
     text-transform: uppercase
     color: #6C6C6C
-
 .desiner
     font-size: 43px
     line-height: 130px
     letter-spacing: -0.025em
     text-transform: uppercase
-
 .description
     font-size: 30px
     line-height: 58px
@@ -176,12 +170,21 @@
     width: 414px
     height: 582px
     text-align: left
+    z-index: 0
+    transition: 0.2s all
+    box-shadow: 0 0 0 1px #e2e9ED
+.card:hover
+    z-index: 1
+    box-shadow: 0 8px 50px rgb(0,0 ,0 )
+    transform: scale(1.05)
 
 .text
     margin-top: 3vh
     margin-left: 2vw
     margin-bottom: -1vh
-.image2
+.img2
+    display: none
+.img3
     display: none
 
 .year
@@ -221,20 +224,11 @@
     text-transform: uppercase
     color: #6C6C6C
 
-.social-container1
+.social-container
     display: flex
-    flex-direction: column
-    justify-content: flex-start
-    margin-left: 29vw
+    justify-content: space-evenly
+    margin: 0 auto
     margin-bottom: 10vh
-.social-container2
-    display: flex
-    flex-direction: column
-    justify-content: flex-end
-    margin-left: 29vw
-    margin-bottom: 10vh
-    margin-top: -36vh
-
 .email
     background-image: url(gmail.png)
     font-family: Avenir-45
@@ -310,9 +304,157 @@
         width: 90px
 // // <!-- ------------------------------------------Desktop----------------------------------------------------------------------------------------->
 @media screen and (min-width:1440px) and (max-width:1920px)
-// <!-- ------------------------------------------mobile query----------------------------------------------------------------------------------------->
+    body
+        width: 100%
+        background-image: url(bg-image.png)
+        background-repeat: repeat-y
+        overflow-x: hidden
+        background-size: 100%
+        width: 100%
+// // <!-- ------------------------------------------Laptop----------------------------------------------------------------------------------------->
 
-@media screen and (min-width:320px) and (max-width:420px)
+@media screen and (max-width:1300px)
+    .name-container
+        font-size: 80px
+    .zain
+        height: 90px
+    @keyframes animate
+        0%,100%
+            top: 0px
+        20%
+            top: -100px
+        40%
+            top: -200px
+        60%
+            top: -300px
+        80%
+            top: -400px
+    .download-resume-btn
+        margin-top: 10vh
+        font-size: 18px
+        width: 300px
+        height: 60px
+    .mouse
+        display: flex
+        justify-content: center
+        allign-item: center
+        margin-top: 20vh
+    .info
+        margin-left: 20vw
+    .card
+        width: 380px
+        height: 550px
+    .img2
+        display: none
+    .img1
+        display: none
+    .img3
+        display: block
+// // <!-- ------------------------------------------Laptop-S----------------------------------------------------------------------------------------->
+
+@media screen and (max-width:1200px)
+    .info
+        margin-left: 18vw
+    .card
+        width: 340px
+        height: 510px
+    .img2
+        display: none
+    .img1
+        display: none
+    .img3
+        display: none
+    .img4
+        display: block
+// // <!-- ------------------------------------------Laptop-S----------------------------------------------------------------------------------------->
+
+@media screen and (max-width:1100px)
+    .info
+        margin-left: 15vw
+    .card
+        width: 300px
+        height: 480px
+    .img2
+        display: none
+    .img1
+        display: none
+    .img3
+        display: none
+    .img4
+        display: none
+    .img5
+        display: block
+    .whos
+        font-size: 30px
+    .desiner
+        font-size: 37px
+    .description
+        font-size: 28px
+// // <!-- ------------------------------------------Ipad-big----------------------------------------------------------------------------------------->
+
+@media screen and (max-width:950px)
+    .name-container
+        font-size: 60px
+    .zain
+        height: 70px
+    .info
+        margin-left: 10vw
+    @keyframes animate
+        0%,100%
+            top: 0px
+        20%
+            top: -80px
+        40%
+            top: -140px
+        60%
+            top: -220px
+        80%
+            top: -300px
+    .whos
+        font-size: 25px
+    .desiner
+        font-size: 33px
+    .description
+        font-size: 26px
+        width: 200px
+    .card
+        width: 260px
+        height: 370px
+    .img2
+        display: none
+    .img1
+        display: none
+    .img3
+        display: none
+    .img4
+        display: none
+    .img5
+        display: none
+    .img6
+        display: block
+    .whos
+        font-size: 27px
+    .desiner
+        font-size: 34px
+    .description
+        font-size: 25px
+        width: 700px
+    .year
+        margin-bottom: 1vh
+        font-size: 12px
+
+    .project-discription
+        width: 220px
+        font-size: 17px
+
+
+    .study
+        font-size: 12px
+
+
+    // <!-- ------------------------------------------mobile query----------------------------------------------------------------------------------------->
+
+@media screen and (max-width:420px)
     .name-container
         display: flex
         flex-direction: column
@@ -365,10 +507,13 @@
 
     body
         background-image: url(bg-image-mobile.png)
+        background-size: 100%
+        background-repeat: repeat-y
+        width: 100%
 
-    .about-all
     .about-container
         text-align: center
+        margin: 0 auto
     .info
         text-align: left
         margin-left: 8vw
@@ -417,7 +562,13 @@
     .img1
         display: none
     .img2
-        // display: none
+        display: block
+    .img3
+        display: none
+    .img4
+        display: none
+    .img5
+        display: none
 
     .year
         margin-bottom: 1vh
@@ -436,52 +587,46 @@
         align-items: center
         svg
             margin-left: 0.8vw
+            align-items: center
     // <!-- ------------------------------------------Contact----------------------------------------------------------------------------------------->
     .Contact-me
         margin-top: 10vh
         font-size: 33px
         line-height: 60px
-
     .feel-free
         font-size: 17px
         line-height: 50px
-
-    .social-container1
-        text-align: center
-        margin-left: 10vw
+    .social-container
+        display: flex
+        justify-content: space-around
+        margin: 0 auto
         margin-bottom: 10vh
-
-    .social-container2
-        margin-left: 49vw
-        margin-bottom: 10vh
-        margin-top: -39vh
-
+        margin-right: 10vw
+   
     .email
         font-size: 14px
         width: 30px
         height: 30px
         margin-top: 9vh
-
         p
             margin-left: 10vw
+            display: none
     .insta
         font-size: 14px
         width: 30px
         height: 30px
         margin-top: 9vh
-
         p
+            display: none
             margin-left: 10vw
-
     .facebook
         font-size: 14px
         width: 30px
         height: 30px
         margin-top: 9vh
-
         p
+            display: none
             margin-left: 10vw
-
     .behance
         font-size: 14px
         width: 30px
@@ -489,20 +634,21 @@
         margin-top: 9vh
 
         p
+            display: none
             margin-left: 10vw
     .dribble
         font-size: 14px
         width: 30px
         height: 30px
         margin-top: 9vh
-
         p
+            display: none
             margin-left: 10vw
     .git
         font-size: 14px
         width: 30px
         height: 30px
         margin-top: 9vh
-
         p
+            display: none
             margin-left: 10vw
