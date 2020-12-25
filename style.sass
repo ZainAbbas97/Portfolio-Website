@@ -303,7 +303,7 @@
         margin-left: 3vw
         width: 90px
 // // <!-- ------------------------------------------Desktop----------------------------------------------------------------------------------------->
-@media screen and (min-width:1440px) and (max-width:1920px)
+@media screen and (min-width:1300px) and (max-width:1920px)
     body
         width: 100%
         background-image: url(bg-image.png)
@@ -311,9 +311,26 @@
         overflow-x: hidden
         background-size: 100%
         width: 100%
+    .img1
+        display: block
+    .img2
+        display: none
+    .img3
+        display: none
+    .img4
+        display: none
+    .img5
+        display: none
+    .img6
+        display: none
 // // <!-- ------------------------------------------Laptop----------------------------------------------------------------------------------------->
 
 @media screen and (max-width:1300px)
+    body
+        background-image: url(bg-image.png)
+        background-size: 100%
+        background-repeat: repeat-y
+        width: 100%
     .name-container
         font-size: 80px
     .zain
@@ -344,12 +361,18 @@
     .card
         width: 380px
         height: 550px
-    .img2
-        display: none
     .img1
+        display: none
+    .img2
         display: none
     .img3
         display: block
+    .img4
+        display: none
+    .img5
+        display: none
+    .img6
+        display: none
 // // <!-- ------------------------------------------Laptop-S----------------------------------------------------------------------------------------->
 
 @media screen and (max-width:1200px)
@@ -366,6 +389,10 @@
         display: none
     .img4
         display: block
+    .img5
+        display: none
+    .img6
+        display: none
 // // <!-- ------------------------------------------Laptop-S----------------------------------------------------------------------------------------->
 
 @media screen and (max-width:1100px)
@@ -384,6 +411,8 @@
         display: none
     .img5
         display: block
+    .img6
+        display: none
     .whos
         font-size: 30px
     .desiner
@@ -393,6 +422,11 @@
 // // <!-- ------------------------------------------Ipad-big----------------------------------------------------------------------------------------->
 
 @media screen and (max-width:950px)
+    body
+        background-image: url(bg-image-ipad.png)
+        background-size: 100%
+        background-repeat: repeat-y
+        width: 100%
     .name-container
         font-size: 60px
     .zain
@@ -418,12 +452,12 @@
         font-size: 26px
         width: 200px
     .card
-        width: 260px
-        height: 370px
-    .img2
-        display: none
+        width: 259px
+        height: 400px
     .img1
         display: none
+    .img2
+        display: block
     .img3
         display: none
     .img4
@@ -431,7 +465,7 @@
     .img5
         display: none
     .img6
-        display: block
+        display: none
     .whos
         font-size: 27px
     .desiner
@@ -442,15 +476,132 @@
     .year
         margin-bottom: 1vh
         font-size: 12px
-
     .project-discription
         width: 220px
         font-size: 17px
-
-
     .study
         font-size: 12px
-
+// // <!-- ------------------------------------------small tabs----------------------------------------------------------------------------------------->
+@media screen and (max-width:800px)
+    .info
+        margin-left: 15vw
+    .project
+        margin-bottom: -4vh
+    .cardsvibe
+        display: flex
+        justify-content: space-around
+        flex-direction: column
+        height: 2000px
+    .card
+        width: 414px
+        height: 540px
+        margin: 0 auto
+    .img2
+        display: none
+    .img1
+        display: none
+    .img3
+        display: none
+    .img4
+        display: none
+    .img5
+        display: block
+    .whos
+        font-size: 23px
+    .desiner
+        font-size: 30px
+    .description    
+        width: 600px
+        font-size: 25px
+    .year
+        margin-bottom: 1vh
+        font-size: 14px
+    .project-discription
+        width: 270px
+        font-size: 20px
+    .study
+        font-size: 14px
+@media screen and (max-width:700px)
+    .whos
+        font-size: 24px
+    .desiner
+        font-size: 28px
+    .description    
+        width: 550px
+        font-size: 24px
+@media screen and (max-width:650px)
+    .info
+        margin-left: 10vw
+    .whos
+        font-size: 24px
+    .desiner
+        font-size: 28px
+    .description    
+        width: 550px
+        font-size: 24px
+@media screen and (max-width:600px)
+    body
+        background-image: url(bg-image-mobile.png)
+        background-size: 100%
+        background-repeat: repeat-y
+        width: 100%
+    .name-container
+        font-size: 40px
+    .zain
+        height: 50px
+    @keyframes animate
+        0%,100%
+            top: 0px
+        20%
+            top: -50px
+        40%
+            top: -100px
+        60%
+            top: -150px
+        80%
+            top: -200px
+    .info
+        margin-top: 7vh
+        margin-left: 10vw
+    .project
+        margin-top: 8vh
+        font-size: 40px
+    .cardsvibe
+        height: 1350px
+    .card
+        width: 259px
+        height: 400px
+    .img1
+        display: none
+    .img2
+        display: block
+    .img3
+        display: none
+    .img4
+        display: none
+    .img5
+        display: none
+    .img6
+        display: none
+    .about
+        font-size: 40px
+    .whos
+        font-size: 20px
+    .desiner
+        font-size: 22px
+    .description
+        width: 450px
+        font-size: 20px
+    .text
+        margin-top: 2vh
+    .year
+        margin-bottom: 1vh
+        font-size: 11px
+    .project-discription
+        width: 220px
+        font-size: 15px
+    .study
+        font-size: 11px
 
     // <!-- ------------------------------------------mobile query----------------------------------------------------------------------------------------->
 
@@ -568,6 +719,8 @@
     .img4
         display: none
     .img5
+        display: none
+    .img6
         display: none
 
     .year
