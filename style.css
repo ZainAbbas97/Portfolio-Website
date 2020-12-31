@@ -222,7 +222,6 @@
   width: 414px;
   height: 582px;
   text-align: left;
-  z-index: 0;
   transition: 0.2s all;
   box-shadow: 0 0 0 1px #e2e9ED;
 }
@@ -655,7 +654,7 @@
     margin-bottom: -4vh;
   }
 
-  .cardsvibe {
+  .cardsmain {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -822,7 +821,7 @@
     font-size: 40px;
   }
 
-  .cardsvibe {
+  .cardsmain {
     height: 1350px;
   }
 
@@ -1039,7 +1038,7 @@
     font-size: 33px;
   }
 
-  .cardsvibe {
+  .cardsmain {
     margin-top: 15vh;
     display: flex;
     justify-content: space-evenly;
