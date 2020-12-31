@@ -59,6 +59,8 @@
   background-position: 500%;
   transition: 0.4s ease-out;
   overflow: hidden;
+  color: #000000;
+  text-decoration: none;
 }
 
 .download-resume-btn:hover {
@@ -154,7 +156,7 @@
 
 .info {
   margin-top: 12vh;
-  margin-left: 29vw;
+  margin-left: 25vw;
   text-align: left;
 }
 
@@ -203,10 +205,15 @@
   text-decoration-line: underline;
 }
 
-.cardsvibe {
+.cardsmain {
   margin-top: 15vh;
   display: flex;
   justify-content: space-evenly;
+}
+.cardsmain a {
+  height: 100%;
+  margin-top: 0;
+  padding: 0;
 }
 
 .card {
@@ -264,120 +271,71 @@
   margin-left: 0.8vw;
 }
 
-.Contact-me {
+.Contactme {
+  padding-top: 8vh;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+.contact-page {
+  width: 100%;
+  height: 500px;
   margin-top: 20vh;
-  text-align: center;
-  font-size: 60px;
-  line-height: 100px;
-  letter-spacing: -0.025em;
-  text-decoration-line: underline;
+  margin-bottom: none;
+  background-repeat: no-repeat;
+  background-color: #252934;
 }
 
-.feel-free {
-  margin-top: 5vh;
-  text-align: center;
-  font-size: 43px;
-  line-height: 100px;
-  letter-spacing: -0.025em;
-  text-transform: uppercase;
-  color: #6C6C6C;
-}
-
-.social-container {
+.accounts {
   display: flex;
-  justify-content: space-evenly;
+  width: 700px;
   margin: 0 auto;
-  margin-bottom: 10vh;
+  margin-top: 10vh;
+}
+.accounts img {
+  transition: transform 2s ease-in-out;
 }
 
-.email {
-  background-image: url(gmail.png);
-  font-family: Avenir-45;
-  font-size: 20px;
-  width: 30px;
-  height: 30px;
-  border-radius: 30px;
-  text-decoration-line: underline;
-  margin-top: 9vh;
-}
-.email p {
-  margin-left: 3vw;
-  width: 90px;
+.statement {
+  margin-top: 5vh;
+  font-size: 30px;
+  color: white;
+  text-align: center;
 }
 
-.insta {
-  background-image: url(Insta.png);
-  font-family: Avenir-45;
-  font-size: 20px;
-  width: 30px;
-  height: 30px;
-  border-radius: 30px;
-  text-decoration-line: underline;
-  margin-top: 9vh;
-}
-.insta p {
-  margin-left: 3vw;
-  width: 90px;
+.facebook, .insta, .git, .gmail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #354351;
+  margin: 0 auto;
+  width: 75px;
+  height: 75px;
+  border-radius: 10px;
 }
 
-.facebook {
-  background-image: url(facebook.png);
-  font-family: Avenir-45;
-  font-size: 20px;
-  width: 30px;
-  height: 30px;
-  border-radius: 30px;
-  text-decoration-line: underline;
-  margin-top: 9vh;
-}
-.facebook p {
-  margin-left: 3vw;
-  width: 90px;
+.gmail:hover {
+  background-color: #2b3846;
 }
 
-.behance {
-  background-image: url(behance.png);
-  font-family: Avenir-45;
-  font-size: 20px;
-  width: 30px;
-  height: 30px;
-  border-radius: 30px;
-  text-decoration-line: underline;
-  margin-top: 9vh;
-}
-.behance p {
-  margin-left: 3vw;
-  width: 90px;
+.insta:hover {
+  background-color: #2b3846;
 }
 
-.dribble {
-  background-image: url(dribbble.png);
-  font-family: Avenir-45;
-  font-size: 20px;
-  width: 30px;
-  height: 30px;
-  border-radius: 30px;
-  text-decoration-line: underline;
-  margin-top: 9vh;
-}
-.dribble p {
-  margin-left: 3vw;
-  width: 90px;
+.facebook:hover {
+  background-color: #2b3846;
 }
 
-.git {
-  background-image: url(git.png);
-  font-family: Avenir-45;
-  font-size: 20px;
-  width: 30px;
-  height: 30px;
-  border-radius: 30px;
-  text-decoration-line: underline;
-  margin-top: 9vh;
+.git:hover {
+  background-color: #2b3846;
 }
-.git p {
-  margin-left: 3vw;
-  width: 90px;
+
+.creds {
+  text-align: center;
+  color: white;
+  margin-top: 3%;
+  opacity: 40%;
 }
 
 @media screen and (min-width: 1300px) and (max-width: 1920px) {
@@ -462,7 +420,11 @@
   }
 
   .info {
-    margin-left: 20vw;
+    margin-left: 23vw;
+  }
+
+  .description {
+    width: 800px;
   }
 
   .card {
@@ -496,7 +458,7 @@
 }
 @media screen and (max-width: 1200px) {
   .info {
-    margin-left: 18vw;
+    margin-left: 19vw;
   }
 
   .card {
@@ -527,10 +489,14 @@
   .img6 {
     display: none;
   }
+
+  .creds {
+    margin-top: 8%;
+  }
 }
 @media screen and (max-width: 1100px) {
   .info {
-    margin-left: 15vw;
+    margin-left: 18vw;
   }
 
   .card {
@@ -591,7 +557,7 @@
   }
 
   .info {
-    margin-left: 10vw;
+    margin-left: 15vw;
   }
 
   @keyframes animate {
@@ -762,6 +728,38 @@
     width: 550px;
     font-size: 24px;
   }
+
+  .accounts {
+    width: 500px;
+  }
+  .accounts img {
+    width: 50%;
+    height: 50%;
+  }
+
+  .statement {
+    font-size: 20px;
+  }
+
+  .facebook, .insta, .git, .gmail {
+    width: 50px;
+    height: 50px;
+  }
+
+  .insta img, .git img {
+    width: 50%;
+    height: 50%;
+  }
+
+  .gmail img {
+    width: 40%;
+    height: 30%;
+  }
+
+  .facebook img {
+    width: 30%;
+    height: 40%;
+  }
 }
 @media screen and (max-width: 650px) {
   .info {
@@ -891,6 +889,23 @@
   .study {
     font-size: 11px;
   }
+
+  .accounts {
+    margin-top: 8vh;
+    width: 400px;
+  }
+
+  .creds {
+    margin-top: 19%;
+  }
+
+  .Contactme {
+    font-size: 40px;
+  }
+
+  .statement {
+    font-size: 22px;
+  }
 }
 @media screen and (max-width: 420px) {
   .name-container {
@@ -1001,6 +1016,18 @@
     width: 335px;
   }
 
+  .accounts {
+    width: 300px;
+  }
+
+  .Contactme {
+    font-size: 33px;
+  }
+
+  .statement {
+    font-size: 18px;
+  }
+
   .project-container {
     text-align: center;
   }
@@ -1078,91 +1105,6 @@
   .study svg {
     margin-left: 0.8vw;
     align-items: center;
-  }
-
-  .Contact-me {
-    margin-top: 10vh;
-    font-size: 33px;
-    line-height: 60px;
-  }
-
-  .feel-free {
-    font-size: 17px;
-    line-height: 50px;
-  }
-
-  .social-container {
-    display: flex;
-    justify-content: space-around;
-    margin: 0 auto;
-    margin-bottom: 10vh;
-    margin-right: 10vw;
-  }
-
-  .email {
-    font-size: 14px;
-    width: 30px;
-    height: 30px;
-    margin-top: 9vh;
-  }
-  .email p {
-    margin-left: 10vw;
-    display: none;
-  }
-
-  .insta {
-    font-size: 14px;
-    width: 30px;
-    height: 30px;
-    margin-top: 9vh;
-  }
-  .insta p {
-    display: none;
-    margin-left: 10vw;
-  }
-
-  .facebook {
-    font-size: 14px;
-    width: 30px;
-    height: 30px;
-    margin-top: 9vh;
-  }
-  .facebook p {
-    display: none;
-    margin-left: 10vw;
-  }
-
-  .behance {
-    font-size: 14px;
-    width: 30px;
-    height: 30px;
-    margin-top: 9vh;
-  }
-  .behance p {
-    display: none;
-    margin-left: 10vw;
-  }
-
-  .dribble {
-    font-size: 14px;
-    width: 30px;
-    height: 30px;
-    margin-top: 9vh;
-  }
-  .dribble p {
-    display: none;
-    margin-left: 10vw;
-  }
-
-  .git {
-    font-size: 14px;
-    width: 30px;
-    height: 30px;
-    margin-top: 9vh;
-  }
-  .git p {
-    display: none;
-    margin-left: 10vw;
   }
 }
 
