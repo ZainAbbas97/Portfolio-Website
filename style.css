@@ -22,7 +22,6 @@
   background-repeat: repeat-y;
   overflow-x: hidden;
   background-size: 100%;
-  width: 50%;
 }
 
 .name-container {
@@ -345,7 +344,6 @@
     background-repeat: repeat-y;
     overflow-x: hidden;
     background-size: 100%;
-    width: 100%;
   }
 
   .img1 {
@@ -377,7 +375,6 @@
     background-image: url(bg-image.png);
     background-size: 100%;
     background-repeat: repeat-y;
-    width: 100%;
   }
 
   .name-container {
@@ -389,7 +386,7 @@
   }
 
   @keyframes animate {
-    0%, 100% {
+    0% {
       top: 0px;
     }
     20% {
@@ -545,7 +542,6 @@
     background-image: url(bg-image-ipad.png);
     background-size: 100%;
     background-repeat: repeat-y;
-    width: 100%;
     overflow-x: hidden;
   }
 
@@ -785,7 +781,6 @@
     background-image: url(bg-image-mobile.png);
     background-size: 100%;
     background-repeat: repeat-y;
-    width: 100%;
     overflow-x: hidden;
   }
 
@@ -979,7 +974,6 @@
     background-image: url(bg-image-mobile.png);
     background-size: 100%;
     background-repeat: repeat-y;
-    width: 100%;
     overflow-x: hidden;
   }
 
@@ -1112,6 +1106,10 @@
   }
 }
 @media screen and (max-width: 320px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .description {
     width: 250px;
     font-size: 15px;

@@ -19,8 +19,6 @@
     background-repeat: repeat-y
     overflow-x: hidden
     background-size: 100%
-    width: 50%
-
 .name-container
     margin: 0 auto
     margin-top: 19vh
@@ -267,7 +265,6 @@
         background-repeat: repeat-y
         overflow-x: hidden
         background-size: 100%
-        width: 100%
     .img1
         display: block
     .img2
@@ -286,13 +283,12 @@
         background-image: url(bg-image.png)
         background-size: 100%
         background-repeat: repeat-y
-        width: 100%
     .name-container
         font-size: 80px
     .zain
         height: 90px
     @keyframes animate
-        0%,100%
+        0%
             top: 0px
         20%
             top: -100px
@@ -302,6 +298,8 @@
             top: -300px
         80%
             top: -400px
+
+
     .download-resume-btn
         margin-top: 10vh
         font-size: 18px
@@ -383,7 +381,6 @@
         background-image: url(bg-image-ipad.png)
         background-size: 100%
         background-repeat: repeat-y
-        width: 100%
         overflow-x: hidden
     .name-container
         font-size: 60px
@@ -524,7 +521,6 @@
         background-image: url(bg-image-mobile.png)
         background-size: 100%
         background-repeat: repeat-y
-        width: 100%
         overflow-x: hidden
     .name-container
         font-size: 40px
@@ -649,7 +645,6 @@
         background-image: url(bg-image-mobile.png)
         background-size: 100%
         background-repeat: repeat-y
-        width: 100%
         overflow-x: hidden
 
     .about-container
@@ -738,6 +733,8 @@
             margin-left: 0.8vw
             align-items: center
 @media screen and (max-width:320px)
+    body
+        overflow-x: hidden
     .description
         width: 250px
         font-size: 15px
