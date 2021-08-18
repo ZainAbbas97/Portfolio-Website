@@ -31,7 +31,7 @@
   width: 65vw;
   font-size: 80px;
   text-align: center;
-  align-items: center;
+  allign-items: center;
   width: 100%;
 }
 
@@ -101,12 +101,12 @@
 .mouse {
   display: flex;
   justify-content: center;
-  align-items: center;
+  allign-item: center;
   margin-top: 27vh;
 }
 
 .zain span {
-  margin-bottom: 7px;
+  marigin-bottom: 7px;
   animation: animate 10s ease infinite;
   position: relative;
 }
@@ -219,7 +219,7 @@
 .card1 {
   width: 300px;
   height: 400px;
-  background-image: url(images/RL.png);
+  background-image: url(/Images/Portfolio-Website/RL.png);
   text-align: left;
   transition: 0.2s all;
 }
@@ -233,7 +233,7 @@
 .card2 {
   width: 300px;
   height: 400px;
-  background-image: url(images/Fri.png);
+  background-image: url(/Images/Portfolio-Website/Fri.png);
   text-align: left;
   transition: 0.2s all;
 }
@@ -247,7 +247,7 @@
 .card3 {
   width: 300px;
   height: 400px;
-  background-image: url(images/Zel.png);
+  background-image: url(/Images/Portfolio-Website/Zel.png);
   text-align: left;
   transition: 0.2s all;
 }
@@ -425,7 +425,7 @@
   .mouse {
     display: flex;
     justify-content: center;
-    align-items: center;
+    allign-item: center;
     margin-top: 20vh;
   }
 
@@ -975,7 +975,7 @@
   .mouse {
     display: flex;
     justify-content: center;
-    align-items: center;
+    allign-item: center;
     margin-top: 30vh;
   }
 
