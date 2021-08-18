@@ -29,9 +29,9 @@
   margin-top: 19vh;
   height: fit-content;
   width: 65vw;
-  font-size: 100px;
+  font-size: 80px;
   text-align: center;
-  allign-items: center;
+  align-items: center;
   width: 100%;
 }
 
@@ -39,7 +39,7 @@
   z-index: -2;
   font-family: Avenir-55;
   background-color: white;
-  font-size: 27px;
+  font-size: 23px;
   line-height: 36px;
   display: flex;
   align-items: center;
@@ -47,8 +47,8 @@
   letter-spacing: -0.025em;
   text-transform: uppercase;
   justify-content: center;
-  width: 429px;
-  height: 78px;
+  width: 350px;
+  height: 70px;
   border: 1px solid black;
   margin: 50px auto;
   cursor: pointer;
@@ -101,12 +101,12 @@
 .mouse {
   display: flex;
   justify-content: center;
-  allign-item: center;
+  align-items: center;
   margin-top: 27vh;
 }
 
 .zain span {
-  marigin-bottom: 7px;
+  margin-bottom: 7px;
   animation: animate 10s ease infinite;
   position: relative;
 }
@@ -116,16 +116,16 @@
     top: 0px;
   }
   20% {
-    top: -120px;
+    top: -100px;
   }
   40% {
-    top: -240px;
+    top: -200px;
   }
   60% {
-    top: -360px;
+    top: -300px;
   }
   80% {
-    top: -480px;
+    top: -400px;
   }
 }
 .scroll {
@@ -162,32 +162,37 @@
 .about {
   font-family: Avenir-55;
   line-height: 100px;
-  font-size: 60px;
+  font-size: 50px;
   letter-spacing: -0.025em;
   text-decoration-line: underline;
 }
 
 .whos {
   font-family: Avenir-55;
-  font-size: 35px;
+  font-size: 30px;
   letter-spacing: 0.25em;
   text-transform: uppercase;
   color: #6C6C6C;
 }
 
 .desiner {
-  font-size: 43px;
+  font-size: 30px;
   line-height: 130px;
   letter-spacing: -0.025em;
   text-transform: uppercase;
 }
 
 .description {
-  font-size: 30px;
+  font-size: 25px;
   line-height: 58px;
   letter-spacing: -0.025em;
   color: #6C6C6C;
   width: 900px;
+}
+
+.main-project {
+  display: flex;
+  justify-content: center;
 }
 
 .project-container {
@@ -205,68 +210,76 @@
 }
 
 .cardsmain {
-  margin-top: 15vh;
+  width: 1400px;
+  margin-top: 8vh;
   display: flex;
   justify-content: space-evenly;
 }
-.cardsmain a {
-  height: 100%;
-  margin-top: 0;
-  padding: 0;
-}
 
-.card {
-  background-color: #000000;
-  color: white;
-  width: 414px;
-  height: 582px;
+.card1 {
+  width: 300px;
+  height: 400px;
+  background-image: url(images/RL.png);
   text-align: left;
   transition: 0.2s all;
-  box-shadow: 0 0 0 1px #e2e9ED;
 }
 
-.card:hover {
+.card1:hover {
   z-index: 1;
-  box-shadow: 0 8px 50px black;
+  box-shadow: 0px 6px 11px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+}
+
+.card2 {
+  width: 300px;
+  height: 400px;
+  background-image: url(images/Fri.png);
+  text-align: left;
+  transition: 0.2s all;
+}
+
+.card2:hover {
+  z-index: 1;
+  box-shadow: 0px 6px 11px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+}
+
+.card3 {
+  width: 300px;
+  height: 400px;
+  background-image: url(images/Zel.png);
+  text-align: left;
+  transition: 0.2s all;
+}
+
+.card3:hover {
+  z-index: 1;
+  box-shadow: 0px 6px 11px rgba(0, 0, 0, 0.3);
   transform: scale(1.05);
 }
 
 .text {
-  margin-top: 3vh;
-  margin-left: 2vw;
-  margin-bottom: -1vh;
-}
-
-.img2 {
-  display: none;
-}
-
-.img3 {
-  display: none;
+  z-index: 6;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
 }
 
 .year {
-  margin-bottom: 1vh;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 251.4%;
   letter-spacing: 0.3em;
+  margin-top: 36px;
+  margin-bottom: 4px;
+  margin-left: 24px;
 }
 
 .project-discription {
-  width: 270px;
-  font-size: 20px;
-  line-height: 28px;
-}
-
-.study {
-  display: flex;
-  margin-top: 1vh;
-  font-size: 14px;
-  line-height: 39px;
-  align-items: center;
-}
-.study svg {
-  margin-left: 0.8vw;
+  font-size: 16px;
+  line-height: 20px;
+  width: 200px;
+  margin-left: 24px;
 }
 
 .Contactme {
@@ -412,7 +425,7 @@
   .mouse {
     display: flex;
     justify-content: center;
-    allign-item: center;
+    align-items: center;
     margin-top: 20vh;
   }
 
@@ -962,7 +975,7 @@
   .mouse {
     display: flex;
     justify-content: center;
-    allign-item: center;
+    align-items: center;
     margin-top: 30vh;
   }
 
